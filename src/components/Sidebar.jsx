@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
 	const { isOpen, closeHandle } = useContext(SidebarContext);
-	const { cart, clearCart, total } = useContext(CartContext);
+	const { cart, clearCart, total, itemAmount } = useContext(CartContext);
 
 	return (
 		<div
@@ -17,7 +17,9 @@ export default function Sidebar() {
 			} h-full w-full bg-white top-0 fixed sm:w-[80vw] md:w-[47vw] xl:max-w-[30vw] lg:max-w-[40vw] lg:px-[35px] transition-all duration-300 z-20 px-4 shadow-2xl`}
 		>
 			<div className="flex justify-between items-center py-3 border-b">
-				<div className="uppercase text-sm font-semibold">Shopping (0)</div>
+				<div className="uppercase text-sm font-semibold">
+					Shopping ({itemAmount})
+				</div>
 				<div
 					className="cursor-pointer w-8 h-8 flex justify-center items-center"
 					onClick={() => closeHandle()}

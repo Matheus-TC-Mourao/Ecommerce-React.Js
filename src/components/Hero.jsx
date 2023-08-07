@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export default function Hero() {
 	return (
-		<section className="bg-pink-200 h-[550px] bg-hero bg-no-repeat bg-cover bg-center py-24 overflow-hidden drop-shadow-lg">
+		<section className="h-[550px] bg-hero bg-no-repeat bg-cover bg-center py-24 overflow-hidden drop-shadow-lg">
 			<div className="container mx-auto flex justify-around h-full">
 				{/* text  */}
 				<div className="flex flex-col justify-center">
