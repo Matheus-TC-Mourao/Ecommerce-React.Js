@@ -13,7 +13,7 @@ function Header() {
 
 	useEffect(() => {
 		window.addEventListener('scroll', () => {
-			window.scrollY > 40 ? setIsActive(true) : setIsActive(false);
+			window.scrollY > 60 ? setIsActive(true) : setIsActive(false);
 		});
 	});
 

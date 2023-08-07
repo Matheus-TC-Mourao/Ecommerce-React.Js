@@ -6,6 +6,15 @@ export default function CartProvider({ children }) {
 
 	const [itemAmount, setItemAmount] = useState(0);
 
+	const [total, setTotal] = useState(0);
+
+	useEffect(() => {
+		const total = cart.reduce((accumulator, currentItem) => {
+			return accumulator + currentItem.price * currentItem.amount;
+		}, 0);
+		setTotal(total);
+	}, [cart]);
+
 	const addToCart = (product, id) => {
 		const newItem = { ...product, amount: 1 };
 
@@ -82,6 +91,7 @@ export default function CartProvider({ children }) {
 				increaseAmount,
 				decreaseAmount,
 				itemAmount,
+				total,
 			}}
 		>
 			{children}
