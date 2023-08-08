@@ -4,7 +4,6 @@ import { IoMdArrowForward } from 'react-icons/io';
 import { FiTrash2 } from 'react-icons/fi';
 import { CartContext } from '../context/Cartcontext';
 import CartItem from './CartItem';
-import { Link } from 'react-router-dom';
 
 export default function Sidebar() {
 	const { isOpen, closeHandle } = useContext(SidebarContext);
@@ -27,7 +26,7 @@ export default function Sidebar() {
 					<IoMdArrowForward className="text-2xl" />
 				</div>
 			</div>
-			<div className="flex flex-col gap-y-2 h-[370px] overflow-y-auto overflow-x-hidden border-b">
+			<div className="flex flex-col gap-y-2 h-[470px] overflow-y-auto overflow-x-hidden border-b">
 				{cart.map((item) => {
 					return <CartItem item={item} key={item.id} />;
 				})}
@@ -47,18 +46,6 @@ export default function Sidebar() {
 						<FiTrash2 />
 					</div>
 				</div>
-				<Link
-					className="bg-purple-200 p-3 flex justify-center items-center text-primary w-full font-medium"
-					to={'/'}
-				>
-					View Cart
-				</Link>
-				<Link
-					className="bg-primary p-3 flex justify-center items-center text-white w-full font-medium"
-					to={'/'}
-				>
-					Checkout
-				</Link>
 			</div>
 		</div>
 	);

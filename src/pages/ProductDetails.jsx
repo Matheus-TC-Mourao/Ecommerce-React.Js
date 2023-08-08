@@ -24,7 +24,7 @@ export default function ProductDetails() {
 	const { price, image, description, title } = product;
 
 	return (
-		<section className="pt-24 pb-12 lg:py-32 h-screen flex items-center">
+		<section className="pt-24 pb-12 lg:py-32 h-full flex items-center">
 			<div className="container mx-auto h-full">
 				<div className="flex flex-col lg:flex-row items-center">
 					<div className="flex flex-1 justify-center items-center mb-8 lg:mb-0">
@@ -43,12 +43,12 @@ export default function ProductDetails() {
 						<div className="text-xl text-red-500 font-medium mb-6">
 							$ {price}
 						</div>
-						<div className="overflow-y-auto max-h-[300px]">
+						<div className="overflow-y-auto max-h-[300px] mb-2">
 							<p className="mb-8">{description}</p>
 						</div>
 						<button
 							onClick={() => addToCart(product, product.id)}
-							className="py-4 px-8 bg-primary text-white"
+							className="py-4 px-8 bg-primary text-white hover:bg-slate-500 hover:font-bold"
 						>
 							Add to cart
 						</button>

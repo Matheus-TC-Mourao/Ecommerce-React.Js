@@ -38,7 +38,7 @@ export default function Product({ product }) {
 			<div>
 				<div className="text-sm capitalize mb-1 text-gray-500">{category}</div>
 				<Link to={`/product/${id}`}>
-					<h2 className="font-semibold mb-1">{title}</h2>
+					<h2 className="font-semibold mb-1 hover:underline">{title}</h2>
 				</Link>
 
 				<div className="font-semibold">$ {price}</div>
