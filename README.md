@@ -11,12 +11,12 @@ Antes de começar, você precisará ter o [Node.js](https://nodejs.org/) instala
 1. Clone este repositório para o seu ambiente local:
 
    ```bash
-   git clone https://github.com/Matheus-TC-Mourao/Ecommerce-React.Js.git
+   git clone https://github.com/Matheus-TC-Mourao/Ecommerce-ReactJs.git
 
 2. Acesse o diretório do projeto:
    
    ```bash
-   cd Ecommerce-React.Js
+   cd Ecommerce-ReactJs
 
 3. Instale as dependências:
 
