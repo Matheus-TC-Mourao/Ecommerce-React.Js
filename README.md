@@ -1,4 +1,4 @@
-# Projeto E-Commerce com React.js e Tailwind CSS
+# Projeto E-Commerce com ReactJs
 
 Bem-vindo ao Projeto E-Commerce desenvolvido com React.js e Tailwind CSS! Este é um projeto de exemplo que demonstra como construir uma aplicação de comércio eletrônico moderna e responsiva usando essas tecnologias.
 
