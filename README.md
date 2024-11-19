@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 🛍️ E-commerce App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto de e-commerce para a venda de roupas, desenvolvido com foco em uma experiência de usuário moderna, responsiva e eficiente. A aplicação utiliza tecnologias atuais para gerenciar o estado e oferecer uma interface estilizada e intuitiva.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠 Tecnologias Utilizadas
 
-### `npm start`
+- **Framework:** [React.js](https://reactjs.org/) - para construção da interface do usuário.
+- **Estilização:** [Tailwind CSS](https://tailwindcss.com/) - para criação de estilos rápidos e consistentes.
+- **Gerenciamento de Estado:** [Context API](https://reactjs.org/docs/context.html) - para compartilhamento de estado global na aplicação.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✨ Funcionalidades
 
-### `npm test`
+- **Catálogo de Produtos:** Exibição de roupas com imagens, descrições e preços.
+- **Carrinho de Compras:** Adicionar, remover e atualizar itens.
+- **Gerenciamento de Estado:** Controle eficiente do carrinho e do usuário com Context API.
+- **Design Responsivo:** Interface otimizada para diferentes tamanhos de tela.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🚀 Configuração do Ambiente de Desenvolvimento
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone o repositório:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   git clone https://github.com/usuario/ecommerce-roupas.git
+   cd ecommerce-roupas
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Instale as dependências:**
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Inicie o servidor de desenvolvimento:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Acesse o aplicativo no navegador em `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧩 Gerenciamento de Estado com Context API
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **CartContext:** Gerencia os itens do carrinho, incluindo funções para adicionar, remover e atualizar produtos.
+- **ProductContext:** Gerencia o estado da API.
+- **SidebarContext:** Gerencia o estado do barra lateral.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📌 Contribuindo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contribuições são sempre bem-vindas! Siga as etapas abaixo para colaborar:
+1. Faça um fork do repositório.
+2. Crie uma branch para sua funcionalidade (`git checkout -b feature/nova-funcionalidade`).
+3. Envie suas alterações (`git push origin feature/nova-funcionalidade`).
+4. Abra um Pull Request.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📞 Contato
 
-### Making a Progressive Web App
+Se você tiver dúvidas ou sugestões, entre em contato:</br>
+**Email:** [matheusmouraotc@gmail.com](matheusmouraotc@gmail.com)</br>
+**GitHub:** [@Matheus-TC-Mourao](https://github.com/Matheus-TC-Mourao)</br>
+**LinkedIn:** [Matheus Mourão](https://www.linkedin.com/in/matheus-mour%C3%A3o-13a838208/)</br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fique à vontade para explorar e melhorar o projeto! 🎉
